@@ -1,0 +1,194 @@
+2015-06-28 04:16:44 -- [ 3 mb ] Starting reading excel file, this may take minutes, please wait....
+2015-06-28 04:17:38 -- [ 8 mb ] File read. starting convert:
+2015-06-28 04:17:38 -- [ 8 mb ] Starting convert the 1 sheet ....
+2015-06-28 04:17:38 -- [ 8 mb ] Generating 1 sheet
+2015-06-28 04:17:39 -- [ 8 mb ] Generating 2 sheet
+2015-06-28 04:17:41 -- [ 8 mb ] Generating 3 sheet
+2015-06-28 04:17:43 -- [ 8.25 mb ] Generating 4 sheet
+2015-06-28 04:17:46 -- [ 8.25 mb ] Generating 5 sheet
+2015-06-28 04:17:47 -- [ 8.25 mb ] Starting convert the 2 sheet ....
+2015-06-28 04:17:47 -- [ 8.25 mb ] Generating 6 sheet
+2015-06-28 04:18:12 -- [ 9.75 mb ] Generating 7 sheet
+2015-06-28 04:18:22 -- [ 10 mb ] Generating 8 sheet
+2015-06-28 04:18:57 -- [ 12.5 mb ] Generating 9 sheet
+2015-06-28 04:19:25 -- [ 13.75 mb ] Generating 10 sheet
+2015-06-28 04:19:46 -- [ 14.5 mb ] Generating 11 sheet
+2015-06-28 04:20:03 -- [ 14.75 mb ] Starting convert the 3 sheet ....
+2015-06-28 04:20:03 -- [ 14.75 mb ] Generating 12 sheet
+2015-06-28 04:20:15 -- [ 15.25 mb ] Generating 13 sheet
+2015-06-28 04:20:28 -- [ 15.5 mb ] Generating 14 sheet
+2015-06-28 04:20:43 -- [ 15.75 mb ] Starting convert the 4 sheet ....
+2015-06-28 04:20:43 -- [ 15.75 mb ] Generating 15 sheet
+2015-06-28 04:21:06 -- [ 17 mb ] Generating 16 sheet
+2015-06-28 04:21:26 -- [ 17.25 mb ] Convert over.Saving file....
+2015-06-28 04:24:30 -- [ 3 mb ] Starting reading excel file, this may take minutes, please wait....
+2015-06-28 04:25:26 -- [ 8 mb ] File read. starting convert:
+2015-06-28 04:25:26 -- [ 8 mb ] Starting convert the 1 sheet ....
+2015-06-28 04:25:26 -- [ 8 mb ] Generating 1 sheet
+2015-06-28 04:25:28 -- [ 8 mb ] Generating 2 sheet
+2015-06-28 04:25:30 -- [ 8 mb ] Generating 3 sheet
+2015-06-28 04:25:31 -- [ 8.25 mb ] Generating 4 sheet
+2015-06-28 04:25:34 -- [ 8.25 mb ] Generating 5 sheet
+2015-06-28 04:25:36 -- [ 8.25 mb ] Starting convert the 2 sheet ....
+2015-06-28 04:25:36 -- [ 8.25 mb ] Generating 6 sheet
+2015-06-28 04:26:01 -- [ 9.75 mb ] Generating 7 sheet
+2015-06-28 04:26:11 -- [ 10 mb ] Generating 8 sheet
+2015-06-28 04:26:47 -- [ 12.5 mb ] Generating 9 sheet
+2015-06-28 04:27:15 -- [ 13.75 mb ] Generating 10 sheet
+2015-06-28 04:27:37 -- [ 14.5 mb ] Generating 11 sheet
+2015-06-28 04:27:54 -- [ 14.75 mb ] Starting convert the 3 sheet ....
+2015-06-28 04:27:54 -- [ 14.75 mb ] Generating 12 sheet
+2015-06-28 04:28:07 -- [ 15.25 mb ] Generating 13 sheet
+2015-06-28 04:28:20 -- [ 15.5 mb ] Generating 14 sheet
+2015-06-28 04:28:36 -- [ 15.75 mb ] Starting convert the 4 sheet ....
+2015-06-28 04:28:36 -- [ 15.75 mb ] Generating 15 sheet
+2015-06-28 04:28:59 -- [ 17 mb ] Generating 16 sheet
+2015-06-28 04:29:19 -- [ 17.25 mb ] Convert over.Saving file....
+2015-06-28 04:31:39 -- [ 20.5 mb ] Saving OK, convert successfully!
+Usage: [ Memory=3 mb,Time=23924326.460413 ] 2015-06-28 04:46:27 --  Starting reading excel file, this may take minutes, please wait....
+Usage: [ Memory=8 mb,Time=23924327.384858 ] 2015-06-28 04:47:23 --  File read. starting convert:
+Usage: [ Memory=8 mb,Time=5.3616364796956E-5 ] 2015-06-28 04:47:23 --  Starting convert the 1 sheet ....
+Usage: [ Memory=8 mb,Time=0.00019081433614095 ] 2015-06-28 04:47:23 --  Generating 1 sheet
+Usage: [ Memory=8 mb,Time=0.018959550062815 ] 2015-06-28 04:47:24 --  Generating 2 sheet
+Usage: [ Memory=8 mb,Time=0.052156500021617 ] 2015-06-28 04:47:26 --  Generating 3 sheet
+Usage: [ Memory=8.25 mb,Time=0.075978863239288 ] 2015-06-28 04:47:27 --  Generating 4 sheet
+Usage: [ Memory=8.25 mb,Time=0.12909396489461 ] 2015-06-28 04:47:30 --  Generating 5 sheet
+Usage: [ Memory=8.25 mb,Time=0.14966723124186 ] 2015-06-28 04:47:32 --  Starting convert the 2 sheet ....
+Usage: [ Memory=8.25 mb,Time=0.14980748097102 ] 2015-06-28 04:47:32 --  Generating 6 sheet
+Usage: [ Memory=9.75 mb,Time=0.55938338041306 ] 2015-06-28 04:47:56 --  Generating 7 sheet
+Usage: [ Memory=10 mb,Time=0.72464293241501 ] 2015-06-28 04:48:06 --  Generating 8 sheet
+Usage: [ Memory=12.5 mb,Time=1.3243359168371 ] 2015-06-28 04:48:42 --  Generating 9 sheet
+Usage: [ Memory=13.75 mb,Time=1.7801040331523 ] 2015-06-28 04:49:09 --  Generating 10 sheet
+Usage: [ Memory=14.5 mb,Time=2.1492579301198 ] 2015-06-28 04:49:32 --  Generating 11 sheet
+Usage: [ Memory=14.75 mb,Time=2.4472132166227 ] 2015-06-28 04:49:49 --  Starting convert the 3 sheet ....
+Usage: [ Memory=14.75 mb,Time=2.4473638971647 ] 2015-06-28 04:49:49 --  Generating 12 sheet
+Usage: [ Memory=15.25 mb,Time=2.6469110488892 ] 2015-06-28 04:50:01 --  Generating 13 sheet
+Usage: [ Memory=15.5 mb,Time=2.8671488483747 ] 2015-06-28 04:50:15 --  Generating 14 sheet
+Usage: [ Memory=15.75 mb,Time=3.126419766744 ] 2015-06-28 04:50:30 --  Starting convert the 4 sheet ....
+Usage: [ Memory=15.75 mb,Time=3.1265977144241 ] 2015-06-28 04:50:30 --  Generating 15 sheet
+Usage: [ Memory=17 mb,Time=3.5573577642441 ] 2015-06-28 04:50:56 --  Generating 16 sheet
+Usage: [ Memory=17.25 mb,Time=3.914230132103 ] 2015-06-28 04:51:17 --  Convert over.Saving file....
+Usage: [ Memory=20.25 mb,Time=6.3017299811045 ] 2015-06-28 04:53:41 --  Saving OK, convert successfully!
+Usage: [ Memory=3M,Time=1435460836 ] 2015-06-28 05:07:16 --  Starting reading excel file, this may take minutes, please wait....
+Usage: [ Memory=8M,Time=1435460892 ] 2015-06-28 05:08:12 --  File read. starting convert:
+Usage: [ Memory=8M,Time=0 ] 2015-06-28 05:08:12 --  Starting convert the 1 sheet ....
+Usage: [ Memory=3M,Time=0 ] 2015-06-28 05:10:58 --  Starting reading excel file, this may take minutes, please wait....
+Usage: [ Memory=8M,Time=55 ] 2015-06-28 05:11:54 --  File read. starting convert:
+Usage: [ Memory=8M,Time=0 ] 2015-06-28 05:11:54 --  Starting convert the 1 sheet ....
+Usage: [ Memory=8M,Time=0 ] 2015-06-28 05:11:54 --  Generating 1 sheet
+Usage: [ Memory=8M,Time=1 ] 2015-06-28 05:11:55 --  Generating 2 sheet
+Usage: [ Memory=8M,Time=3 ] 2015-06-28 05:11:57 --  Generating 3 sheet
+Usage: [ Memory=8.25M,Time=5 ] 2015-06-28 05:11:59 --  Generating 4 sheet
+Usage: [ Memory=8.25M,Time=8 ] 2015-06-28 05:12:02 --  Generating 5 sheet
+Usage: [ Memory=8.25M,Time=10 ] 2015-06-28 05:12:04 --  Starting convert the 2 sheet ....
+Usage: [ Memory=8.25M,Time=10 ] 2015-06-28 05:12:04 --  Generating 6 sheet
+Usage: [ Memory=9.75M,Time=36 ] 2015-06-28 05:12:30 --  Generating 7 sheet
+Usage: [ Memory=10.25M,Time=47 ] 2015-06-28 05:12:41 --  Generating 8 sheet
+Usage: [ Memory=12.5M,Time=84 ] 2015-06-28 05:13:18 --  Generating 9 sheet
+Usage: [ Memory=13.75M,Time=113 ] 2015-06-28 05:13:47 --  Generating 10 sheet
+Usage: [ Memory=14.5M,Time=135 ] 2015-06-28 05:14:09 --  Generating 11 sheet
+Usage: [ Memory=14.75M,Time=153 ] 2015-06-28 05:14:27 --  Starting convert the 3 sheet ....
+Usage: [ Memory=14.75M,Time=153 ] 2015-06-28 05:14:27 --  Generating 12 sheet
+Usage: [ Memory=15M,Time=165 ] 2015-06-28 05:14:39 --  Generating 13 sheet
+Usage: [ Memory=15.25M,Time=178 ] 2015-06-28 05:14:52 --  Generating 14 sheet
+Usage: [ Memory=15.5M,Time=193 ] 2015-06-28 05:15:07 --  Starting convert the 4 sheet ....
+Usage: [ Memory=15.5M,Time=193 ] 2015-06-28 05:15:07 --  Generating 15 sheet
+Usage: [ Memory=17M,Time=217 ] 2015-06-28 05:15:32 --  Generating 16 sheet
+Usage: [ Memory=17.25M,Time=238 ] 2015-06-28 05:15:52 --  Convert over.Saving file....
+Usage: [ Memory=20M,Time=380 ] 2015-06-28 05:18:15 --  Saving OK, convert successfully!
+2015-06-28 05:19:32 --  [ Memory=3M,Time=0s ]  --  Starting reading excel file, this may take minutes, please wait....
+2015-06-28 05:20:25 --  [ Memory=8M,Time=54s ]  --  File read. starting convert:
+2015-06-28 05:20:25 --  [ Memory=8M,Time=0s ]  --  Starting convert the 1 sheet ....
+2015-06-28 05:20:25 --  [ Memory=8M,Time=0s ]  --  Generating 1 sheet
+2015-06-28 05:20:27 --  [ Memory=8M,Time=1s ]  --  Generating 2 sheet
+2015-06-28 05:20:29 --  [ Memory=8M,Time=3s ]  --  Generating 3 sheet
+2015-06-28 05:20:30 --  [ Memory=8.25M,Time=4s ]  --  Generating 4 sheet
+2015-06-28 05:20:33 --  [ Memory=8.25M,Time=7s ]  --  Generating 5 sheet
+2015-06-28 05:20:34 --  [ Memory=8.25M,Time=8s ]  --  Starting convert the 2 sheet ....
+2015-06-28 05:20:34 --  [ Memory=8.25M,Time=8s ]  --  Generating 6 sheet
+2015-06-28 05:20:59 --  [ Memory=9.75M,Time=33s ]  --  Generating 7 sheet
+2015-06-28 05:21:09 --  [ Memory=10M,Time=43s ]  --  Generating 8 sheet
+2015-06-28 05:21:45 --  [ Memory=12.5M,Time=79s ]  --  Generating 9 sheet
+2015-06-28 05:22:13 --  [ Memory=13.75M,Time=107s ]  --  Generating 10 sheet
+2015-06-28 05:22:34 --  [ Memory=14.5M,Time=128s ]  --  Generating 11 sheet
+2015-06-28 05:22:52 --  [ Memory=14.75M,Time=146s ]  --  Starting convert the 3 sheet ....
+2015-06-28 05:22:52 --  [ Memory=14.75M,Time=146s ]  --  Generating 12 sheet
+2015-06-28 05:23:04 --  [ Memory=15.25M,Time=158s ]  --  Generating 13 sheet
+2015-06-28 05:23:18 --  [ Memory=15.5M,Time=172s ]  --  Generating 14 sheet
+2015-06-28 05:23:39 --  [ Memory=15.75M,Time=193s ]  --  Starting convert the 4 sheet ....
+2015-06-28 05:23:39 --  [ Memory=15.75M,Time=193s ]  --  Generating 15 sheet
+2015-06-28 05:24:09 --  [ Memory=17M,Time=223s ]  --  Generating 16 sheet
+2015-06-28 05:24:29 --  [ Memory=17.25M,Time=244s ]  --  Convert over.Saving file....
+2015-06-28 05:26:50 --  [ Memory=19.75M,Time=384s ]  --  Saving OK, convert successfully!
+2015-06-28 05:51:02 --  [ Memory=3.25M,Time=0s ]  --  Starting reading excel file, this may take minutes, please wait....
+2015-06-28 05:51:28 --  [ Memory=8.25M,Time=25s ]  --  File read. starting convert:
+2015-06-28 05:51:28 --  [ Memory=8.25M,Time=25s ]  --  Starting convert the 1 sheet ....
+2015-06-28 05:51:28 --  [ Memory=8.25M,Time=25s ]  --  Generating 1 sheet
+2015-06-28 05:51:29 --  [ Memory=8.25M,Time=26s ]  --  Generating 2 sheet
+2015-06-28 05:51:30 --  [ Memory=8.25M,Time=27s ]  --  Generating 3 sheet
+2015-06-28 05:51:30 --  [ Memory=8.5M,Time=28s ]  --  Generating 4 sheet
+2015-06-28 05:51:32 --  [ Memory=8.5M,Time=29s ]  --  Generating 5 sheet
+2015-06-28 05:51:33 --  [ Memory=8.5M,Time=30s ]  --  Starting convert the 2 sheet ....
+2015-06-28 05:51:33 --  [ Memory=8.5M,Time=30s ]  --  Generating 6 sheet
+2015-06-28 05:51:44 --  [ Memory=10M,Time=41s ]  --  Generating 7 sheet
+2015-06-28 05:51:49 --  [ Memory=10.25M,Time=46s ]  --  Generating 8 sheet
+2015-06-28 05:52:05 --  [ Memory=12.75M,Time=62s ]  --  Generating 9 sheet
+2015-06-28 05:52:18 --  [ Memory=14M,Time=75s ]  --  Generating 10 sheet
+2015-06-28 05:52:27 --  [ Memory=14.75M,Time=85s ]  --  Generating 11 sheet
+2015-06-28 05:52:36 --  [ Memory=15M,Time=93s ]  --  Starting convert the 3 sheet ....
+2015-06-28 05:52:36 --  [ Memory=15M,Time=93s ]  --  Generating 12 sheet
+2015-06-28 05:52:43 --  [ Memory=15.5M,Time=100s ]  --  Generating 13 sheet
+2015-06-28 05:52:50 --  [ Memory=15.75M,Time=107s ]  --  Generating 14 sheet
+2015-06-28 05:52:58 --  [ Memory=16M,Time=115s ]  --  Starting convert the 4 sheet ....
+2015-06-28 05:52:58 --  [ Memory=16M,Time=115s ]  --  Generating 15 sheet
+2015-06-28 05:53:11 --  [ Memory=17.25M,Time=128s ]  --  Generating 16 sheet
+2015-06-28 05:53:21 --  [ Memory=17.5M,Time=139s ]  --  Convert over.Saving file....
+2015-06-28 05:54:30 --  [ Memory=20.5M,Time=207s ]  --  Saving OK, convert successfully!
+2015-06-28 04:01:40 --  [ Memory=4.25M,Time=0s ]  --  Starting reading excel file, this may take minutes, please wait....
+2015-06-28 04:01:41 --  [ Memory=12M,Time=1s ]  --  File read. starting convert:
+2015-06-28 04:01:41 --  [ Memory=12M,Time=1s ]  --  Starting convert the 1 sheet ....
+2015-06-28 04:01:41 --  [ Memory=12M,Time=1s ]  --  Generating 1 sheet
+2015-06-28 04:01:41 --  [ Memory=12M,Time=1s ]  --  Generating 2 sheet
+2015-06-28 04:01:41 --  [ Memory=12M,Time=1s ]  --  Generating 3 sheet
+2015-06-28 04:01:41 --  [ Memory=12.25M,Time=1s ]  --  Generating 4 sheet
+2015-06-28 04:01:41 --  [ Memory=12.5M,Time=1s ]  --  Generating 5 sheet
+2015-06-28 04:01:41 --  [ Memory=12.5M,Time=1s ]  --  Starting convert the 2 sheet ....
+2015-06-28 04:01:41 --  [ Memory=12.5M,Time=1s ]  --  Generating 6 sheet
+2015-06-28 04:01:42 --  [ Memory=14.75M,Time=2s ]  --  Generating 7 sheet
+2015-06-28 04:01:42 --  [ Memory=15.5M,Time=2s ]  --  Generating 8 sheet
+2015-06-28 04:01:43 --  [ Memory=19.5M,Time=3s ]  --  Generating 9 sheet
+2015-06-28 04:01:44 --  [ Memory=21.75M,Time=4s ]  --  Generating 10 sheet
+2015-06-28 04:01:45 --  [ Memory=23M,Time=4s ]  --  Generating 11 sheet
+2015-06-28 04:01:45 --  [ Memory=23.5M,Time=5s ]  --  Starting convert the 3 sheet ....
+2015-06-28 04:01:45 --  [ Memory=23.5M,Time=5s ]  --  Generating 12 sheet
+2015-06-28 04:01:45 --  [ Memory=24M,Time=5s ]  --  Generating 13 sheet
+2015-06-28 04:01:45 --  [ Memory=24.25M,Time=5s ]  --  Generating 14 sheet
+2015-06-28 04:01:45 --  [ Memory=24.5M,Time=5s ]  --  Starting convert the 4 sheet ....
+2015-06-28 04:01:45 --  [ Memory=24.5M,Time=5s ]  --  Generating 15 sheet
+2015-06-28 04:01:46 --  [ Memory=27.5M,Time=6s ]  --  Generating 16 sheet
+2015-06-28 04:01:46 --  [ Memory=28.25M,Time=6s ]  --  Convert over.Saving file....
+2015-06-28 04:01:47 --  [ Memory=31.5M,Time=7s ]  --  Saving OK, convert successfully!
+2015-06-28 04:03:46 --  [ Memory=4.25M,Time=0s ]  --  Starting reading excel file, this may take minutes, please wait....
+2015-06-28 04:03:46 --  [ Memory=12M,Time=0s ]  --  File read. starting convert:
+2015-06-28 04:03:46 --  [ Memory=12M,Time=0s ]  --  Starting convert the 1 sheet ....
+2015-06-28 04:03:46 --  [ Memory=12M,Time=0s ]  --  Generating 1 sheet
+2015-06-28 04:03:46 --  [ Memory=12M,Time=0s ]  --  Generating 2 sheet
+2015-06-28 04:03:46 --  [ Memory=12M,Time=0s ]  --  Generating 3 sheet
+2015-06-28 04:03:46 --  [ Memory=12M,Time=0s ]  --  Generating 4 sheet
+2015-06-28 04:03:46 --  [ Memory=12.5M,Time=0s ]  --  Generating 5 sheet
+2015-06-28 04:03:46 --  [ Memory=12.5M,Time=0s ]  --  Starting convert the 2 sheet ....
+2015-06-28 04:03:46 --  [ Memory=12.5M,Time=0s ]  --  Generating 6 sheet
+2015-06-28 04:03:46 --  [ Memory=14.75M,Time=0s ]  --  Generating 7 sheet
+2015-06-28 04:03:46 --  [ Memory=15.25M,Time=0s ]  --  Generating 8 sheet
+2015-06-28 04:03:47 --  [ Memory=19.5M,Time=1s ]  --  Generating 9 sheet
+2015-06-28 04:03:47 --  [ Memory=21.5M,Time=1s ]  --  Generating 10 sheet
+2015-06-28 04:03:47 --  [ Memory=22.5M,Time=1s ]  --  Generating 11 sheet
+2015-06-28 04:03:47 --  [ Memory=23.25M,Time=1s ]  --  Starting convert the 3 sheet ....
+2015-06-28 04:03:47 --  [ Memory=23.25M,Time=1s ]  --  Generating 12 sheet
+2015-06-28 04:03:47 --  [ Memory=23.5M,Time=1s ]  --  Generating 13 sheet
+2015-06-28 04:03:47 --  [ Memory=23.75M,Time=1s ]  --  Generating 14 sheet
+2015-06-28 04:03:47 --  [ Memory=24M,Time=1s ]  --  Starting convert the 4 sheet ....
+2015-06-28 04:03:47 --  [ Memory=24M,Time=1s ]  --  Generating 15 sheet
+2015-06-28 04:03:47 --  [ Memory=27M,Time=1s ]  --  Generating 16 sheet
+2015-06-28 04:03:48 --  [ Memory=27.75M,Time=2s ]  --  Convert over.Saving file....
+2015-06-28 04:03:48 --  [ Memory=31.25M,Time=2s ]  --  Saving OK, convert successfully!
