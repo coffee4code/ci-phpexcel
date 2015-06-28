@@ -3,6 +3,9 @@
 if ( ! function_exists('my_date_format')){
 
     function my_date_format($date_excel,$format){
+        if(!$date_excel){
+            return '';
+        }
         $phpexcepDate = $date_excel-25569;
         $date_unix = strtotime("+$phpexcepDate days", mktime(0,0,0,1,1,1970));
         return date($format, $date_unix);

@@ -31,13 +31,13 @@ class Reader extends CI_Model{
 
     public function __construct(){
 
-        $memeory_limit = 100;
+        $this->time_start = microtime(true);
+        $memeory_limit = 2*1024;
         if(intval(ini_get('memory_limit')) <= $memeory_limit)
         {
             ini_set('memory_limit', $memeory_limit . 'M');
         }
         ini_set('max_execution_time', 24*3600*7  );
-        $this->time_start = microtime(true);
 
         parent::__construct();
 
@@ -57,12 +57,24 @@ class Reader extends CI_Model{
 
         $this->date_format_default      = config_item('date_format_default');
 
-        $this->load_resource();
+        $this->load_resource_sheets();
         $this->objPHPExcel_target       = new PHPExcel();
 
     }
 
-    private function load_resource(){
+    public function readFile(){
+
+        $wsIterator = $this->objPHPExcel_resource->getWorksheetIterator();
+        foreach ($wsIterator as $resource_sheet) {
+            $sheet_index = $wsIterator->key();
+            $this->write_log(' Starting convert the ' .($sheet_index + 1). ' sheet ....');
+            $this->read_sheet($resource_sheet,$sheet_index);
+        }
+        $this->save_file();
+
+    }
+
+    private function load_resource_sheets(){
 
         $this->write_log(' Starting reading excel file, this may take minutes, please wait....');
         $file_resource_path = $this->file_directory . $this->file_resource_name;
@@ -74,31 +86,31 @@ class Reader extends CI_Model{
             $reader = PHPExcel_IOFactory::createReader('Excel2007');
             $reader->setReadDataOnly(true);
             $this->objPHPExcel_resource = $reader->load($file_resource_path);
-
-//            $this->objPHPExcel_resource = PHPExcel_IOFactory::load($file_resource_path);
-
         }
         $this->write_log(' File read. starting convert:');
 
     }
 
-    private function readCell($sheet,$colmon,$row){
+    private function read_cell($sheet,$colmon,$row){
 
-        return $sheet->getCell($colmon . $row)->getValue();
+        return trim($sheet->getCell($colmon . $row)->getValue());
 
     }
 
-    private function readSheet($resource_sheet){
+    private function read_sheet($resource_sheet,$sheet_index){
 
         $name_prefix = $resource_sheet->getTitle();
-        $install_or_fix = $this->install_or_fix($name_prefix);
+        $install_or_fix = $this->install_or_fix($name_prefix,$sheet_index);
         $allRow = $resource_sheet->getHighestRow();
 
         for( $currentRow = $this->file_resource_min_row ; $currentRow <= $allRow ; $currentRow++){
 
             $name_suffix = '';
             foreach($this->compare_column as $diff){
-                $name_suffix .= '-' . $this->readCell($resource_sheet,$diff,$currentRow);
+                $cell_diff = $this->read_cell($resource_sheet,$diff,$currentRow);
+                if(!empty($cell_diff)){
+                    $name_suffix .= '-' . $cell_diff;
+                }
             }
 
             if(!empty($name_suffix)){
@@ -111,7 +123,7 @@ class Reader extends CI_Model{
                 foreach($map as $colmon => $item){
                     $value = '';
                     if(!empty($item['from'])){
-                        $value = $this->readCell($resource_sheet,$item['from'],$currentRow);
+                        $value = $this->read_cell($resource_sheet,$item['from'],$currentRow);
                     }
                     if(isset($item['format']) && $item['format'] === 'date'){
                         $format = isset($item['format_style'])?$item['format_style']:$this->date_format_default;
@@ -125,29 +137,19 @@ class Reader extends CI_Model{
 
     }
 
-    public function saveFile(){
+    private function save_file(){
 
         $this->write_log(' Convert over.Saving file....');
+        $this->objPHPExcel_target->setActiveSheetIndex();
         $xlsWriter = new PHPExcel_Writer_Excel5($this->objPHPExcel_target);
         $xlsWriter->save($this->file_directory . $this->file_target_name);
         $this->write_log(' Saving OK, convert successfully!');
     }
 
-    public function readFile(){
-
-        $wsIterator = $this->objPHPExcel_resource->getWorksheetIterator();
-        foreach ($wsIterator as $resource_sheet) {
-            $this->write_log(' Starting convert the ' .($wsIterator->key() + 1). ' sheet ....');
-            $this->readSheet($resource_sheet);
-        }
-        $this->saveFile();
-
-    }
-
     private function load_target_sheet($name,$install_or_fix){
 
         if(!$this->objPHPExcel_target->getSheetByName($name)){
-            $this->write_log(' Generating ' . ($this->file_target_sheet_count + 1) . ' sheet');
+            $this->write_log(' Generating sheet ' . ($this->file_target_sheet_count + 1));
             $this->objPHPExcel_target->createSheet();
             if( 0 === $this->file_target_sheet_count){
                 $this->objPHPExcel_target->removeSheetByIndex(0);
@@ -169,7 +171,7 @@ class Reader extends CI_Model{
 
     }
 
-    private function install_or_fix($str){
+    private function install_or_fix($str,$sheet_index){
 
         if (strpos($str, '安装')) {
             return $this->INSTALL;
@@ -177,16 +179,30 @@ class Reader extends CI_Model{
         if (strpos($str, '维修')) {
             return $this->FIX;
         }
+        $warning = 'name of sheet ' . ($sheet_index+1) .' is illegal!';
+        $this->write_warning($warning);
+
         return null;
 
     }
 
-    private function write_log($message){
+    private function write_log($message,$with_time = TRUE){
 
-        $message = date('Y-m-d H:i:s') . ' --  [ Memory=' . show_memory() . ',Time=' .show_time($this->time_start) . ' ] ' . ' -- ' . $message . "\n";
+        if($with_time){
+            $message = date('Y-m-d H:i:s') . ' --  [ Memory=' . show_memory() . ',Time=' .show_time($this->time_start) . ' ] ' . ' -- ' . $message;
+        }
+        $message .= "\n";
         echo $message;
         $this->log->write($message);
 
+    }
+
+    private function write_warning($warning){
+        $this->write_log("\n",false);
+        $this->write_log('##############################################################',false);
+        $this->write_log('#  Attention:  ' .$warning, false);
+        $this->write_log('##############################################################',false);
+        $this->write_log("\n",false);
     }
 
 }
